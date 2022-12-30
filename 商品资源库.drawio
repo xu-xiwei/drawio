@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T06:37:56.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="fVDvKtWc3VPqApUK_kHJ" type="github"><diagram id="V5LS8S8Easrrb9Y1rijw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-30T08:23:41.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="vNtFBWwTLCP71Wjq-Tkc" type="github">
+  <diagram id="z1rB8hc0lJCditMYBdqV" name="第 1 页">
+    <mxGraphModel dx="1404" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JSezwWm1jPMsEun-NspH-1" value="资源库商品 （1002）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JSezwWm1jPMsEun-NspH-2" value="其他店铺商品&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;parent_id&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JSezwWm1jPMsEun-NspH-6" value="&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="430" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSezwWm1jPMsEun-NspH-7" value="上架" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="255" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSezwWm1jPMsEun-NspH-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.575;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JSezwWm1jPMsEun-NspH-1" target="JSezwWm1jPMsEun-NspH-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="400" as="sourcePoint" />
+            <mxPoint x="620" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSezwWm1jPMsEun-NspH-9" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="175" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSezwWm1jPMsEun-NspH-10" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="345" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

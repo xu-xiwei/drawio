@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T11:38:39.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3KNCvsE3TqZTMRD8T_D2" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T07:13:16.785Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="B0Dm3_NoydVYxApheVbP" version="22.1.0" type="github">
   <diagram name="第 1 页" id="jNjTmyWnIg0mmmp1Ju3j">
     <mxGraphModel dx="1834" dy="1240" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="200000" pageHeight="200000" math="0" shadow="0">
       <root>
@@ -138,6 +138,90 @@
         </mxCell>
         <mxCell id="i0Iv2Q9IE5e70W4y3djE-46" value="结束" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-310" y="3264" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-50" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-48" target="i0Iv2Q9IE5e70W4y3djE-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-48" value="加减质押金" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="9" y="-179" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-52" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-49" target="i0Iv2Q9IE5e70W4y3djE-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-49" value="简单业务校验" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="1" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-54" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-51" target="i0Iv2Q9IE5e70W4y3djE-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-56" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-51" target="i0Iv2Q9IE5e70W4y3djE-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-51" value="质押金是否增加" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="29" y="171" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-67" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-53" target="i0Iv2Q9IE5e70W4y3djE-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-53" value="判断最大提取量" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="181" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-55" target="i0Iv2Q9IE5e70W4y3djE-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-55" value="扣减用户资产&lt;br&gt;customer_asset" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-57" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="33" y="311" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-61" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-58" target="i0Iv2Q9IE5e70W4y3djE-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-58" value="专项账户增加资产" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="561" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-63" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-60" target="i0Iv2Q9IE5e70W4y3djE-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-60" value="更新质押数量和剩余质押数量，质押率&lt;br&gt;pledge_order" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="741" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-65" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-62" target="i0Iv2Q9IE5e70W4y3djE-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-62" value="更新质押资产&lt;br&gt;pledge_asset" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="921" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-64" value="结束" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="1101" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-69" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-66" target="i0Iv2Q9IE5e70W4y3djE-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-66" value="增加用户资产&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;customer_asset" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="361" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-74" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-68" target="i0Iv2Q9IE5e70W4y3djE-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-68" value="专用账户资产减少&lt;br&gt;customer_asset" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="541" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-76" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-73" target="i0Iv2Q9IE5e70W4y3djE-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-73" value="更新质押数量和剩余质押数量，质押率&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;pledge_order" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="721" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-78" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i0Iv2Q9IE5e70W4y3djE-75" target="i0Iv2Q9IE5e70W4y3djE-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-75" value="更新质押资产&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;pledge_asset" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="901" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0Iv2Q9IE5e70W4y3djE-77" value="结束" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="1081" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

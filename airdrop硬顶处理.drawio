@@ -1,9 +1,140 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T07:44:28.835Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.7" etag="TeNvd17GH07rr3dfkhh5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T10:20:20.276Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jeXK476y3ryWxtJrRzed" version="23.1.7" type="github">
   <diagram name="第 1 页" id="MpOyPqU8MC8BSn2IfJgt">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="200000" pageHeight="200000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-2" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-3" target="uHqH7Vm5GGdGQFsQ4Idf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-5" target="uHqH7Vm5GGdGQFsQ4Idf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-5" value="普通用户可申领数量" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-16" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-13" target="uHqH7Vm5GGdGQFsQ4Idf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-13" value="循环用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-18" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-15" target="uHqH7Vm5GGdGQFsQ4Idf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-15" value="判断用户可申领到是否大于申领上限" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-17" target="uHqH7Vm5GGdGQFsQ4Idf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-17" value="更新可申领数量为上限值&lt;br&gt;更新可分配额&lt;br&gt;记录达到上限用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-24" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-21" target="uHqH7Vm5GGdGQFsQ4Idf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-31" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-21" target="uHqH7Vm5GGdGQFsQ4Idf-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-21" value="可分配额是否大于0" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-23" target="uHqH7Vm5GGdGQFsQ4Idf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-23" value="保存可申领数量" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="231.5" y="1085.5" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-26" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-15" target="uHqH7Vm5GGdGQFsQ4Idf-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209" y="912" as="sourcePoint" />
+            <mxPoint x="259" y="862" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="362" y="740" />
+              <mxPoint x="359" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-33" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-30" target="uHqH7Vm5GGdGQFsQ4Idf-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-30" value="未达到上限用户申领&lt;br&gt;分配额进行再分配" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-35" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-32" target="uHqH7Vm5GGdGQFsQ4Idf-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-32" value="计算未达到上限额度之和" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-37" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-34" target="uHqH7Vm5GGdGQFsQ4Idf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-34" value="计算用户可申领数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-42" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-36" target="uHqH7Vm5GGdGQFsQ4Idf-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-36" value="申领数量是否达到上限" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-46" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-41" target="uHqH7Vm5GGdGQFsQ4Idf-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-41" value="更新可申领数量&lt;br&gt;更新分配额&lt;br&gt;记录到达上线用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="116" y="2030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-43" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="173.5" y="1933.5" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-44" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-36" target="uHqH7Vm5GGdGQFsQ4Idf-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="164" y="1820" as="sourcePoint" />
+            <mxPoint x="214" y="1770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="383" y="1860" />
+              <mxPoint x="383" y="1498" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-67" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-45" target="uHqH7Vm5GGdGQFsQ4Idf-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-45" value="可分配&amp;lt;=0或无分配用户" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="2200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-58" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="98" y="2233" as="sourcePoint" />
+            <mxPoint x="384" y="1862" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="388" y="2237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-59" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220.5" y="2211.5" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-69" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="uHqH7Vm5GGdGQFsQ4Idf-66" target="uHqH7Vm5GGdGQFsQ4Idf-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-66" value="保存用户申领数量" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="116" y="2410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uHqH7Vm5GGdGQFsQ4Idf-68" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="116" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

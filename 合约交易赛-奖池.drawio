@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T02:46:44.458Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="neX-9ZWu-FPQcxEWCjN1" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T02:52:35.027Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_pujheh4l9x9RYONF2On" version="24.2.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="954" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -40,8 +40,20 @@
         <mxCell id="MT66Mh5YDrd_8wVJc7CR-9" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="334" y="431" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MT66Mh5YDrd_8wVJc7CR-12" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="MT66Mh5YDrd_8wVJc7CR-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="77e6c97f196da883-3" source="MT66Mh5YDrd_8wVJc7CR-12" target="MT66Mh5YDrd_8wVJc7CR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT66Mh5YDrd_8wVJc7CR-12" value="按照时间间隔执行自动增长" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="134" y="631" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MT66Mh5YDrd_8wVJc7CR-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="77e6c97f196da883-3" source="MT66Mh5YDrd_8wVJc7CR-14" target="MT66Mh5YDrd_8wVJc7CR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MT66Mh5YDrd_8wVJc7CR-14" value="更新奖池金额&lt;div&gt;更新奖池金额记录&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="134" y="811" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MT66Mh5YDrd_8wVJc7CR-16" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="134" y="991" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MT66Mh5YDrd_8wVJc7CR-1" value="合约" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="461" y="20" width="462" height="1608" as="geometry" />

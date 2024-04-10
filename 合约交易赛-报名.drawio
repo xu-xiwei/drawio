@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T09:25:55.863Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Mie7wTkGvuZgFdlbkd_B" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T09:39:24.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ThGqVdO7AdAYqCtHKoe2" version="24.2.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="954" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -222,8 +222,8 @@
         <mxCell id="7L1N_wUHKzrK2IpRh_ph-56" value="合约保证金" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="93" y="1708" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7L1N_wUHKzrK2IpRh_ph-67" value="合约划转" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="101" y="2092" width="120" height="60" as="geometry" />
+        <mxCell id="7L1N_wUHKzrK2IpRh_ph-67" value="合约划转&lt;div&gt;支持幂等&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="104" y="2375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7L1N_wUHKzrK2IpRh_ph-21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="77e6c97f196da883-1" source="7L1N_wUHKzrK2IpRh_ph-6" target="7L1N_wUHKzrK2IpRh_ph-20">
           <mxGeometry relative="1" as="geometry" />

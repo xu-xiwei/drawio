@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="第 1 页" id="06HJxZ2aRITmPhD4oOBg">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="598" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ehHEfjHrusZ6WexBavjR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehHEfjHrusZ6WexBavjR-1" target="ehHEfjHrusZ6WexBavjR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-1" value="行情订阅spout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="123" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehHEfjHrusZ6WexBavjR-2" target="ehHEfjHrusZ6WexBavjR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-2" value="风控订阅spout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="329" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehHEfjHrusZ6WexBavjR-3" target="ehHEfjHrusZ6WexBavjR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-3" value="行情、风控处理blot" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="436" y="123" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ehHEfjHrusZ6WexBavjR-6" target="ehHEfjHrusZ6WexBavjR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-6" value="计算用户强平价及触发强平blot" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="742" y="123" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-8" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="493" y="98" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-9" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="97" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-10" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="304" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-11" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="789.5" y="91" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-12" value="触发计算强平价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="584" y="124" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-13" value="以用户分片发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="589" y="157" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-14" value="强平处理blot" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="964" y="124" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-16" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="976" y="86" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-17" value="用户分片" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="873" y="127" width="66" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -13,6 +13,11 @@
         <mxCell id="ehHEfjHrusZ6WexBavjR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehHEfjHrusZ6WexBavjR-2" target="ehHEfjHrusZ6WexBavjR-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ehHEfjHrusZ6WexBavjR-18" value="过滤分片用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehHEfjHrusZ6WexBavjR-5">
+          <mxGeometry x="0.6636" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ehHEfjHrusZ6WexBavjR-2" value="风控订阅spout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="124" y="329" width="120" height="60" as="geometry" />
         </mxCell>

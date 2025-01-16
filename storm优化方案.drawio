@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="cowpMPlA5oFTLJYU-tEO">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="598" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M1F46UfTLLeqi-2KB-rU-1" target="M1F46UfTLLeqi-2KB-rU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-1" value="MarketInfoSpout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108" y="151" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M1F46UfTLLeqi-2KB-rU-2" target="M1F46UfTLLeqi-2KB-rU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-2" value="ClientEventHandlerBlot" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="151" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="M1F46UfTLLeqi-2KB-rU-4" target="M1F46UfTLLeqi-2KB-rU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-4" value="ClientEventSpout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="336" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M1F46UfTLLeqi-2KB-rU-6" target="M1F46UfTLLeqi-2KB-rU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-6" value="计算强平价blot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="151" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-8" value="新增" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="752" y="98" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-9" value="ForceCloseHandlerBlot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1018" y="151" width="142" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-11" value="clientid分片发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="885" y="151" width="103" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-13" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1064" y="112" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-14" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="794" y="121" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-15" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="516" y="114" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-16" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="146" y="122" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-17" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="144" y="306" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-18" value="只保存行情仓位等信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="398" y="222" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-19" value="定时触发后流转" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="626" y="151" width="102" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-20" value="行情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="272" y="143" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M1F46UfTLLeqi-2KB-rU-21" value="clientid分片" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="637.5" y="183" width="79" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

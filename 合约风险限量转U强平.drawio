@@ -216,8 +216,8 @@
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-78" value="全量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-45" y="-1028" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-80" value="梯度保证金&lt;div&gt;限额&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-346" y="-1103" width="78" height="41" as="geometry" />
+        <mxCell id="0rFeJn9Vlhh-oOop-bB8-80" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;风险限额&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="-1095" width="66" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0rFeJn9Vlhh-oOop-bB8-81" target="0rFeJn9Vlhh-oOop-bB8-84">
           <mxGeometry relative="1" as="geometry" />

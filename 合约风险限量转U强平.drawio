@@ -258,6 +258,9 @@
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-93" value="触发计算强平" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="176" y="-2411" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0rFeJn9Vlhh-oOop-bB8-95" value="ws" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-143" y="-1973" width="33" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -249,6 +249,15 @@
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-91" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="-752" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0rFeJn9Vlhh-oOop-bB8-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0rFeJn9Vlhh-oOop-bB8-92" target="0rFeJn9Vlhh-oOop-bB8-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rFeJn9Vlhh-oOop-bB8-92" value="定时信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-24" y="-2411" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0rFeJn9Vlhh-oOop-bB8-93" value="触发计算强平" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="176" y="-2411" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

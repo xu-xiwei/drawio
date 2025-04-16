@@ -369,14 +369,97 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-21" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="1070" width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-22" target="gon9QzESkzeDt1cruLDi-24">
+        <mxCell id="gon9QzESkzeDt1cruLDi-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-22" target="gon9QzESkzeDt1cruLDi-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-22" value="计算全仓维持保证金比率" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="1228" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-24" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-41" y="1368" width="120" height="60" as="geometry" />
+        <mxCell id="gon9QzESkzeDt1cruLDi-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-26" target="gon9QzESkzeDt1cruLDi-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-26" target="gon9QzESkzeDt1cruLDi-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-26" value="是否触发强平" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-21" y="1358" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-28" target="gon9QzESkzeDt1cruLDi-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-141" y="943" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-28" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-201" y="1368" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-30" target="gon9QzESkzeDt1cruLDi-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-30" value="遍历交易对" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="1528" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-33" target="gon9QzESkzeDt1cruLDi-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-33" value="计算仓位档位" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="1668" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-35" target="gon9QzESkzeDt1cruLDi-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-35" target="gon9QzESkzeDt1cruLDi-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-35" value="档位是否1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-21" y="1798" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-37" target="gon9QzESkzeDt1cruLDi-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-222" y="1838" />
+              <mxPoint x="-222" y="1558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-37" value="全部强平" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-201" y="1808" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-39" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="1809" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-40" target="gon9QzESkzeDt1cruLDi-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-40" value="部分强平" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="1968" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-44" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1891" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-45" target="gon9QzESkzeDt1cruLDi-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-45" value="计算减仓数量" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="2108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-47" target="gon9QzESkzeDt1cruLDi-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-47" value="按收益分配减仓数量" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="2248" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-49" target="gon9QzESkzeDt1cruLDi-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="99" y="2418" />
+              <mxPoint x="99" y="1558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-49" value="强平" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="2388" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

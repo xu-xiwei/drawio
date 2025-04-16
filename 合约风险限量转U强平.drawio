@@ -469,6 +469,12 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-71" value="计算仓位维持保证金" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="368" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-73" value="强平" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-328" y="2524" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-74" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-81" y="2545" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

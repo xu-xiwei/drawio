@@ -291,56 +291,31 @@
         <mxCell id="i8836v0kcdFy3ZVOUdc0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i8836v0kcdFy3ZVOUdc0-11" target="i8836v0kcdFy3ZVOUdc0-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i8836v0kcdFy3ZVOUdc0-11" value="计算仓位维持保证金" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="i8836v0kcdFy3ZVOUdc0-11" value="遍历交易对" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-41" y="-52" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i8836v0kcdFy3ZVOUdc0-13" target="gon9QzESkzeDt1cruLDi-1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i8836v0kcdFy3ZVOUdc0-13" target="gon9QzESkzeDt1cruLDi-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i8836v0kcdFy3ZVOUdc0-13" value="计算合约全部仓位名义价值&lt;div&gt;存在行情未同步，通过接口获取标记价&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-41" y="88" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-1" target="gon9QzESkzeDt1cruLDi-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-1" value="遍历仓位" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-41" y="228" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-3" target="gon9QzESkzeDt1cruLDi-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-3" value="计算仓位档位" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-41" y="368" width="120" height="60" as="geometry" />
+        <mxCell id="gon9QzESkzeDt1cruLDi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="gon9QzESkzeDt1cruLDi-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="19" y="428" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-5" target="gon9QzESkzeDt1cruLDi-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-5" value="计算档位对应维持保证金率&lt;div&gt;计算档位对应维持保证金速算额&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-5" value="计算维持保证金比率" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="508" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-7" target="i8836v0kcdFy3ZVOUdc0-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="196" y="678" />
-              <mxPoint x="196" y="-317" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-7" target="gon9QzESkzeDt1cruLDi-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-7" value="计算仓位维持保证金" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-7" value="更新仓位 档位、维持保证金、维持保证金率" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="648" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-7" target="gon9QzESkzeDt1cruLDi-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="102" y="678" />
-              <mxPoint x="102" y="468" />
-              <mxPoint x="99" y="468" />
-              <mxPoint x="99" y="251" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-11" target="gon9QzESkzeDt1cruLDi-13">
           <mxGeometry relative="1" as="geometry" />
@@ -492,6 +467,15 @@
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-67" value="强平" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="167" y="1808" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-69" target="gon9QzESkzeDt1cruLDi-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-69" value="计算档位&lt;div&gt;计算档位对应维持保证金率&lt;div&gt;计算档位对应维持保证金速算额&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="228" width="120" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-71" value="计算仓位维持保证金" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="368" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -318,6 +318,14 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-5" value="计算档位对应维持保证金率&lt;div&gt;计算档位对应维持保证金速算额&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="508" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="gon9QzESkzeDt1cruLDi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-7" target="i8836v0kcdFy3ZVOUdc0-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="196" y="678" />
+              <mxPoint x="196" y="-317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-7" value="计算仓位维持保证金" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="648" width="120" height="60" as="geometry" />
         </mxCell>

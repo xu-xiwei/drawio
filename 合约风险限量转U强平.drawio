@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="UgYxWPM2m7JwB7CC0WY4">
-    <mxGraphModel dx="10354" dy="10011" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
+    <mxGraphModel dx="10724" dy="10282" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -382,8 +382,8 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-71" value="计算仓位维持保证金" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="368" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-73" value="强平" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-342" y="2533" width="42" height="26" as="geometry" />
+        <mxCell id="gon9QzESkzeDt1cruLDi-73" value="强平触发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-354" y="2533" width="66" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-74" target="gon9QzESkzeDt1cruLDi-75">
           <mxGeometry relative="1" as="geometry" />

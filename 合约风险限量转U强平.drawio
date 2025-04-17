@@ -239,7 +239,7 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-13" target="gon9QzESkzeDt1cruLDi-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-13" value="处理强平对象仓位" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-13" value="处理强平对象交易对仓位" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-41" y="928" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-17" target="gon9QzESkzeDt1cruLDi-53">

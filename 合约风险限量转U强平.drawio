@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="UgYxWPM2m7JwB7CC0WY4">
-    <mxGraphModel dx="10580" dy="10177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
+    <mxGraphModel dx="9862" dy="9651" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -502,7 +502,7 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-86" target="gon9QzESkzeDt1cruLDi-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-86" target="gon9QzESkzeDt1cruLDi-96">
+        <mxCell id="gon9QzESkzeDt1cruLDi-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-86" target="gon9QzESkzeDt1cruLDi-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-86" value="会否可以追加保证金" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -529,26 +529,20 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-95" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="2979" width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-96" target="gon9QzESkzeDt1cruLDi-100">
+        <mxCell id="gon9QzESkzeDt1cruLDi-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-106" target="gon9QzESkzeDt1cruLDi-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-96" value="接管记录" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-106" value="接管" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-81" y="3145" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-100" target="gon9QzESkzeDt1cruLDi-102">
+        <mxCell id="gon9QzESkzeDt1cruLDi-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-108" target="gon9QzESkzeDt1cruLDi-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-100" value="接管" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-108" value="发送强平记录mq" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-81" y="3285" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-102" target="gon9QzESkzeDt1cruLDi-104">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-102" value="更新接管记录" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-110" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-81" y="3425" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-104" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-81" y="3565" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

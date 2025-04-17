@@ -135,15 +135,6 @@
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-51" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="421" y="-1536" width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0rFeJn9Vlhh-oOop-bB8-52" target="0rFeJn9Vlhh-oOop-bB8-53" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-52" value="成交" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-28" y="-1186" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-53" value="触发强平计算" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="172" y="-1186" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0rFeJn9Vlhh-oOop-bB8-55" target="0rFeJn9Vlhh-oOop-bB8-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>

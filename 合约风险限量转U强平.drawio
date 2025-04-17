@@ -105,15 +105,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0rFeJn9Vlhh-oOop-bB8-39" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="332" y="-1600" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="233" y="-1607" />
-              <mxPoint x="333" y="-1607" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-39" value="是否做市、接管" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="193" y="-1733" width="80" height="80" as="geometry" />
         </mxCell>
@@ -161,18 +152,6 @@
         </mxCell>
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-63" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="371" y="-1905" width="30" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0rFeJn9Vlhh-oOop-bB8-70" target="0rFeJn9Vlhh-oOop-bB8-72" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-70" value="是否全仓" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="333" y="-1646" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-72" value="触发计算强平" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="473" y="-1636" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0rFeJn9Vlhh-oOop-bB8-74" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="414" y="-1640" width="30" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0rFeJn9Vlhh-oOop-bB8-76" value="维持保证金比率" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="683" y="-2009" width="102" height="26" as="geometry" />
@@ -483,9 +462,6 @@
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-112" value="消费端项目处理" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="119" y="3285" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-114" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="455" y="-1846" width="40" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-115" target="gon9QzESkzeDt1cruLDi-117">
           <mxGeometry relative="1" as="geometry" />

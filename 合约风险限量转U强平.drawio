@@ -221,7 +221,7 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-5" target="gon9QzESkzeDt1cruLDi-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-5" value="计算维持保证金比率" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-5" value="计算维持保证金比率&lt;div&gt;可能存在负数或是分母0的情况 特殊处理&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-41" y="508" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-7" target="gon9QzESkzeDt1cruLDi-11">

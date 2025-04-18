@@ -210,7 +210,7 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i8836v0kcdFy3ZVOUdc0-13" target="gon9QzESkzeDt1cruLDi-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i8836v0kcdFy3ZVOUdc0-13" value="计算合约全部仓位名义价值&lt;div&gt;存在行情未同步，通过接口获取标记价&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="i8836v0kcdFy3ZVOUdc0-13" value="计算合约全部仓位名义价值&lt;div&gt;存在行情未同步，通过接口获取标记价&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-41" y="88" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="gon9QzESkzeDt1cruLDi-5">
@@ -421,7 +421,7 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-106" target="gon9QzESkzeDt1cruLDi-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-106" value="接管" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="gon9QzESkzeDt1cruLDi-106" value="接管" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-81" y="3145" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gon9QzESkzeDt1cruLDi-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gon9QzESkzeDt1cruLDi-108" target="gon9QzESkzeDt1cruLDi-110">

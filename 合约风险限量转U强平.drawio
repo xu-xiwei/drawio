@@ -516,8 +516,8 @@
         <mxCell id="gon9QzESkzeDt1cruLDi-140" value="强平触发" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-201" y="1675" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gon9QzESkzeDt1cruLDi-144" value="强平价怎么传值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="3159" width="102" height="26" as="geometry" />
+        <mxCell id="gon9QzESkzeDt1cruLDi-144" value="强平价传强平时的标记价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="3159" width="150" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

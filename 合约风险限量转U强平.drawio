@@ -600,6 +600,18 @@
         <mxCell id="b61ueeqBX_ejyM9QTNIP-26" value="TAKEN_OVER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-64" y="4068" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-28" value="强平被拦截" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="4168" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-29" value="当前仓位正在强平中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-366" y="4198" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-30" value="触发强平时距离上次强平时间不超过5秒" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="4298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-31" value="强平过程中&lt;div&gt;仓位发生变化，强平中断&lt;/div&gt;&lt;div&gt;持仓量，开仓均价变化&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="4438" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

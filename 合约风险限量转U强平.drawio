@@ -522,6 +522,27 @@
         <mxCell id="b61ueeqBX_ejyM9QTNIP-1" value="暂时没有自动追加保证金功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-261" y="2986" width="174" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-2" value="强平更新仓位阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="3565" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-3" value="ForceCloseHolder&lt;div&gt;setPhaseForPosition&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="3606" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b61ueeqBX_ejyM9QTNIP-4" target="b61ueeqBX_ejyM9QTNIP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-4" value="setCurrent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="3550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-5" value="swichCurrent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="3678" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-6" value="handlePositionProfit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-321" y="3557" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b61ueeqBX_ejyM9QTNIP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="b61ueeqBX_ejyM9QTNIP-6" target="b61ueeqBX_ejyM9QTNIP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -978,7 +978,7 @@
           <mxGeometry x="167" y="316" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-4" value="行情&lt;div&gt;标记价&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="176" y="443" width="120" height="60" as="geometry" />
+          <mxGeometry x="176" y="441" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-5" value="保证金配置&lt;div&gt;交易系统维护表&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="173" y="554" width="120" height="60" as="geometry" />
@@ -986,14 +986,14 @@
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-7" value="强盈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="398" y="412" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-8" value="结算服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="674" y="316" width="120" height="60" as="geometry" />
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-8" value="结算服务&lt;div&gt;幂等性&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="325" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-13" target="UemJ1NncSYPZMtSNJGzJ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-13" value="go服务&lt;div&gt;kafka&lt;/div&gt;&lt;div&gt;过滤&lt;/div&gt;&lt;div&gt;频率待定&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-78" y="443" width="120" height="60" as="geometry" />
+          <mxGeometry x="-95" y="441" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-15" target="UemJ1NncSYPZMtSNJGzJ-2">
           <mxGeometry relative="1" as="geometry" />
@@ -1012,6 +1012,9 @@
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-19" value="交易系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-82" y="554" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-21" value="1s一个周期计算用户保证金率&lt;div&gt;&lt;br&gt;&lt;div&gt;每个仓位1.5秒减仓or强平一次&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="589" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

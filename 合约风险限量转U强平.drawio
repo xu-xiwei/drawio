@@ -999,7 +999,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-15" value="交易系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-82" y="162" width="120" height="60" as="geometry" />
+          <mxGeometry x="-89" y="162" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-17" target="UemJ1NncSYPZMtSNJGzJ-3">
           <mxGeometry relative="1" as="geometry" />
@@ -1011,10 +1011,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-19" value="交易系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-82" y="554" width="120" height="60" as="geometry" />
+          <mxGeometry x="-95" y="554" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-21" value="1s一个周期计算用户保证金率&lt;div&gt;&lt;br&gt;&lt;div&gt;每个仓位1.5秒减仓or强平一次&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-21" value="1s一个周期计算用户保证金率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="589" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-22" value="如何全量 增量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-299" y="355" width="107" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-24" value="rocketmq kafka" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="162" width="99" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

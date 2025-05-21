@@ -968,14 +968,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-1" target="UemJ1NncSYPZMtSNJGzJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-1" value="强平" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="249" width="120" height="60" as="geometry" />
+          <mxGeometry x="289" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-2" target="UemJ1NncSYPZMtSNJGzJ-90">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="78" y="83" />
-              <mxPoint x="-360" y="83" />
+              <mxPoint x="78" y="115" />
+              <mxPoint x="-360" y="115" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -999,11 +1002,19 @@
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-5" value="保证金配置&lt;div&gt;交易系统维护表&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="39" y="616" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-7" value="强盈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="398" y="412" width="120" height="60" as="geometry" />
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="587" y="429" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-8" value="结算服务&lt;div&gt;幂等性&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="624" y="325" width="120" height="60" as="geometry" />
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-7" value="强盈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="436" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-8" target="UemJ1NncSYPZMtSNJGzJ-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-8" value="交易系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="368" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-17" target="UemJ1NncSYPZMtSNJGzJ-94">
           <mxGeometry relative="1" as="geometry" />
@@ -1237,7 +1248,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-98" value="全量查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-197" y="58" width="66" height="26" as="geometry" />
+          <mxGeometry x="-196" y="81" width="66" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-3" target="UemJ1NncSYPZMtSNJGzJ-17">
           <mxGeometry relative="1" as="geometry">
@@ -1281,6 +1292,9 @@
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-111" value="全量查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-196" y="572" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-114" value="结算服务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="368" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

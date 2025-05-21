@@ -985,7 +985,7 @@
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-2" value="仓位&lt;div&gt;资金费&lt;/div&gt;&lt;div&gt;开仓手续费&lt;/div&gt;&lt;div&gt;保证金&lt;/div&gt;&lt;div&gt;杠杆&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="18" y="156" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-3" value="商品信息&lt;div&gt;平仓费率&lt;/div&gt;&lt;div&gt;盈利率&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-3" value="商品信息&lt;div&gt;平仓费率&lt;/div&gt;&lt;div&gt;盈利率 杠杆有关系&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="31" y="308" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-4" value="行情&lt;div&gt;标记价&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1092,7 +1092,7 @@
           <mxGeometry x="-360" y="965" width="109" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-40" value="后期做成twalk配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-253" y="967" width="117" height="26" as="geometry" />
+          <mxGeometry x="-252" y="965" width="117" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-41" target="UemJ1NncSYPZMtSNJGzJ-42">
           <mxGeometry relative="1" as="geometry" />

@@ -1121,7 +1121,10 @@
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-49" value="初始化rocketmq kafka&lt;div&gt;监听交易对相关信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="31" y="1459" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-51" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-51" target="UemJ1NncSYPZMtSNJGzJ-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-51" value="初始化job&lt;div&gt;一个交易对一个job&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="31" y="1599" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-55" target="UemJ1NncSYPZMtSNJGzJ-56">
@@ -1162,6 +1165,48 @@
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-66" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="283" y="1737" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-68" target="UemJ1NncSYPZMtSNJGzJ-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-68" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-69" target="UemJ1NncSYPZMtSNJGzJ-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-69" value="admin减少交易对" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-71" target="UemJ1NncSYPZMtSNJGzJ-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-71" value="发送mq" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-73" target="UemJ1NncSYPZMtSNJGzJ-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-73" value="删除内存数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-75" target="UemJ1NncSYPZMtSNJGzJ-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-75" value="减少监听" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-77" target="UemJ1NncSYPZMtSNJGzJ-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-77" value="删除job" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-79" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-81" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="31" y="1739" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

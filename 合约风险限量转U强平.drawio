@@ -964,15 +964,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AneGOF90gVH8YWRQ46lA" name="dex">
-    <mxGraphModel dx="10351" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
+    <mxGraphModel dx="10261" dy="925" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-1" target="UemJ1NncSYPZMtSNJGzJ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-1" value="强平" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="289" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-1" value="强平强盈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="368" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-2" target="UemJ1NncSYPZMtSNJGzJ-90">
           <mxGeometry relative="1" as="geometry">
@@ -982,10 +982,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-2" value="仓位&lt;div&gt;资金费&lt;/div&gt;&lt;div&gt;开仓手续费&lt;/div&gt;&lt;div&gt;保证金&lt;/div&gt;&lt;div&gt;杠杆&lt;/div&gt;&lt;div&gt;盈利率？&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-2" value="仓位&lt;div&gt;资金费&lt;/div&gt;&lt;div&gt;开仓手续费&lt;/div&gt;&lt;div&gt;保证金&lt;/div&gt;&lt;div&gt;杠杆&lt;/div&gt;&lt;div&gt;开仓价格&lt;/div&gt;&lt;div&gt;持仓数量&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="18" y="156" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-3" value="商品信息&lt;div&gt;平仓费率&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-3" value="商品信息&lt;div&gt;平仓费率&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;盈利率？杠杆有关&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="31" y="308" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-4" value="行情&lt;div&gt;标记价&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1001,14 +1001,6 @@
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-5" value="风险参数 控制参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="39" y="616" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="587" y="429" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-7" value="强盈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="293" y="436" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-8" target="UemJ1NncSYPZMtSNJGzJ-114">
           <mxGeometry relative="1" as="geometry" />
@@ -1094,44 +1086,37 @@
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-40" value="后期做成twalk配置&amp;nbsp; nacos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-271" y="965" width="156" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-41" target="UemJ1NncSYPZMtSNJGzJ-42">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="91" y="1039" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-41" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="31" y="899" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-42" target="UemJ1NncSYPZMtSNJGzJ-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-42" value="项目启动" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="31" y="1039" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-44" target="UemJ1NncSYPZMtSNJGzJ-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-44" value="查询机器对应交易对" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="31" y="1179" width="120" height="60" as="geometry" />
+          <mxGeometry x="31" y="1039" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-46" target="UemJ1NncSYPZMtSNJGzJ-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-46" value="加载交易对全量数量" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="31" y="1319" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-48" value="提供接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="157" y="1336" width="66" height="26" as="geometry" />
+          <mxGeometry x="31" y="1179" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-49" target="UemJ1NncSYPZMtSNJGzJ-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-49" value="初始化rocketmq kafka&lt;div&gt;监听交易对相关信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="31" y="1459" width="120" height="60" as="geometry" />
+          <mxGeometry x="31" y="1319" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-51" target="UemJ1NncSYPZMtSNJGzJ-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-51" value="初始化job&lt;div&gt;一个交易对一个job&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="31" y="1599" width="120" height="60" as="geometry" />
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-51" value="初始化交易对任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="31" y="1459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-55" target="UemJ1NncSYPZMtSNJGzJ-56">
           <mxGeometry relative="1" as="geometry" />
@@ -1160,13 +1145,13 @@
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-62" target="UemJ1NncSYPZMtSNJGzJ-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-62" value="新增监听" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-62" value="新增交易对监听" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="283" y="1457" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-64" target="UemJ1NncSYPZMtSNJGzJ-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-64" value="新增交易对job" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-64" value="新增交易对任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="283" y="1597" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-66" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -1199,29 +1184,20 @@
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-75" target="UemJ1NncSYPZMtSNJGzJ-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-75" value="减少监听" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-75" value="减少交易对监听" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1455" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-77" target="UemJ1NncSYPZMtSNJGzJ-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-77" value="删除job" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-77" value="删除交易对任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1595" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-79" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1735" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-81" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="31" y="1739" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-83" value="分布式幂等性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="328" y="1672" width="90" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-85" value="分布式幂等性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="88" y="1672" width="90" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-86" value="分布式幂等性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="538" y="1666" width="90" height="26" as="geometry" />
+          <mxGeometry x="31" y="1599" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-87" value="动态任务基于TaskScheduler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-365.5" y="1249" width="120" height="60" as="geometry" />
@@ -1387,7 +1363,7 @@
           <mxGeometry x="275" y="856" width="102" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-147" value="配置减少交易对" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="504" y="848" width="102" height="26" as="geometry" />
+          <mxGeometry x="509" y="860" width="102" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="UemJ1NncSYPZMtSNJGzJ-150">
           <mxGeometry relative="1" as="geometry">
@@ -1398,7 +1374,7 @@
           <mxGeometry x="850" y="899" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-149" value="新上架交易对" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="698" y="842" width="90" height="26" as="geometry" />
+          <mxGeometry x="865" y="842" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-150" target="UemJ1NncSYPZMtSNJGzJ-152">
           <mxGeometry relative="1" as="geometry" />
@@ -1421,7 +1397,7 @@
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-156" target="UemJ1NncSYPZMtSNJGzJ-192">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UemJ1NncSYPZMtSNJGzJ-156" value="机器交易对变动&lt;div&gt;新增&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-156" value="机器交易对变动&lt;div&gt;新增mq&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="853" y="1448" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-163" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1524,6 +1500,60 @@
         </mxCell>
         <mxCell id="UemJ1NncSYPZMtSNJGzJ-198" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="853" y="2008" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-200" target="UemJ1NncSYPZMtSNJGzJ-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-200" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="2012" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-203" target="UemJ1NncSYPZMtSNJGzJ-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-203" value="强平强盈任务新增" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="2152" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-205" target="UemJ1NncSYPZMtSNJGzJ-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-205" target="UemJ1NncSYPZMtSNJGzJ-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-205" value="判断是否有机器执行该交易对" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="2282" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-207" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="2292" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-209" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="522" y="2282" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-210" target="UemJ1NncSYPZMtSNJGzJ-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-210" value="设置交易对执行中&lt;div&gt;redis操作&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="2452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-212" value="无" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2374" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-213" target="UemJ1NncSYPZMtSNJGzJ-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-213" value="执行任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="2592" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-215" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="2732" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UemJ1NncSYPZMtSNJGzJ-217" target="UemJ1NncSYPZMtSNJGzJ-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-217" value="强平强盈任务删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="2155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UemJ1NncSYPZMtSNJGzJ-218" value="删除交易对执行中" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="2295" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

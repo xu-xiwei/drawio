@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
-  <diagram name="第 1 页" id="q0zsVlJ_2p4NblxJbRTx">
-    <mxGraphModel>
+  <diagram name="赠金爆仓" id="q0zsVlJ_2p4NblxJbRTx">
+    <mxGraphModel dx="946" dy="603" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-1" value="强平" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gNaUzq_bj4_H-Rj8xfL8-2" target="gNaUzq_bj4_H-Rj8xfL8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-2" value="核心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-5" value="赠金爆仓标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="491" y="95" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-6" value="全仓爆仓" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="803" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-7" value="逐仓爆仓" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="803" y="151" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-9" value="强平数量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="989" y="88" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-10" value="计算维持保证金" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-11" value="本金+赠金" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="551" y="208" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gNaUzq_bj4_H-Rj8xfL8-12" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="358" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

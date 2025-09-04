@@ -1,9 +1,186 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="ScFyZtU0BeAtE_UhqbLz">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="694" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-16" target="WqhuBrgNzI3p_E5B1vp2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-16" value="赠金过期回收job&lt;br&gt;futures-crontab-job&lt;div&gt;expiredExperienceFundReturn&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="118" y="248" width="228" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-17" target="WqhuBrgNzI3p_E5B1vp2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-17" value="赠金过期回收消费者&lt;div&gt;ExperienceFundReturnConsumer&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="248" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-19" value="rocketmq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="379" y="247" width="67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-20" value="futuresReserveLiquidationService.coreTranfer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="759.5" y="248" width="267.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-22" target="WqhuBrgNzI3p_E5B1vp2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-22" value="人工强制回收赠金&lt;div&gt;ManualExperienceFundReturnService&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="376" width="247" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-23" value="futuresReserveLiquidationService.coreTranfer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="763" y="376" width="267.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-26" value="futuresReserveLiquidationService.coreTranfer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="763" y="504" width="267.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-27" target="WqhuBrgNzI3p_E5B1vp2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-27" value="用户转出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="504" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-28" target="WqhuBrgNzI3p_E5B1vp2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-28" value="futures-trade-center&lt;div&gt;&lt;div data-lark-html-role=&quot;root&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; data-eleid=&quot;3&quot; class=&quot;text-only&quot;&gt;ExServiceImpl#sendAccountActionNew&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="504" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-31" value="赠金回收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="180" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-32" target="WqhuBrgNzI3p_E5B1vp2-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-32" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="717" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-55" value="赠金发放流水" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102" y="1591" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-57" value="&lt;div style=&quot;text-align: left;&quot;&gt;1.调用核心生成流水，一条流水&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2.调用核心生成流水，更新核心生成的流水，插入回收流水，两条流水，writeAccountDetailAndNotice&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3.不调用核心赠金入账，插入入账流水，插入回收流水，两条流水，writeAccountDetailAndNotice&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4.卡券失效，不生成流水&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1635" width="555" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-60" target="WqhuBrgNzI3p_E5B1vp2-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-60" target="WqhuBrgNzI3p_E5B1vp2-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-60" value="赠金回收" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="487" y="847" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-62" value="待定" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="627" y="857" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-64" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="572" y="855" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-65" target="WqhuBrgNzI3p_E5B1vp2-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-65" value="调用核心赠金回收" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="1017" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-67" target="WqhuBrgNzI3p_E5B1vp2-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-67" value="发送mq&lt;div&gt;现货记录流水&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="1157" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-69" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="1297" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-71" target="WqhuBrgNzI3p_E5B1vp2-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-71" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1758" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-72" target="WqhuBrgNzI3p_E5B1vp2-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-72" value="场景一&lt;div&gt;判断完全符合场景1，卡券金额完全入账&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1898" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-74" target="WqhuBrgNzI3p_E5B1vp2-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-74" target="WqhuBrgNzI3p_E5B1vp2-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-74" value="赠金入账" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2028" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-76" value="待定" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="2038" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-78" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2038" width="30" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-79" target="WqhuBrgNzI3p_E5B1vp2-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-79" value="现货记录流水mq" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="2198" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-81" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="2338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-83" target="WqhuBrgNzI3p_E5B1vp2-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-83" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="1756" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-84" target="WqhuBrgNzI3p_E5B1vp2-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-84" value="场景二&lt;div&gt;核心生成90流水&lt;/div&gt;&lt;div&gt;然后更新100，10回收&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="1896" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-86" target="WqhuBrgNzI3p_E5B1vp2-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-86" value="更新流水&lt;br&gt;插入回收流水操作" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="2036" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-88" target="WqhuBrgNzI3p_E5B1vp2-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-88" value="现货记录流水mq&lt;div&gt;插入两条流水&lt;/div&gt;&lt;div&gt;幂等性&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="2192" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-90" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="2332" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-92" target="WqhuBrgNzI3p_E5B1vp2-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-92" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="811" y="1749" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-93" target="WqhuBrgNzI3p_E5B1vp2-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-93" value="场景三&lt;div&gt;插入100入账&lt;/div&gt;&lt;div&gt;插入100回收&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="811" y="1889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-95" target="WqhuBrgNzI3p_E5B1vp2-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-95" value="流水操作" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="811" y="2029" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WqhuBrgNzI3p_E5B1vp2-97" target="WqhuBrgNzI3p_E5B1vp2-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-97" value="现货记录流水mq&lt;div&gt;插入两条流水&lt;/div&gt;&lt;div&gt;幂等性&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="811" y="2177" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WqhuBrgNzI3p_E5B1vp2-99" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="811" y="2317" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -4,23 +4,74 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="matDi5zSS8P4dyu_T_uE-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-21" target="matDi5zSS8P4dyu_T_uE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-21" target="matDi5zSS8P4dyu_T_uE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-21" target="matDi5zSS8P4dyu_T_uE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-21" target="matDi5zSS8P4dyu_T_uE-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-21" value="webhook信号管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="121" y="298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-24" target="matDi5zSS8P4dyu_T_uE-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-24" value="运行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="367" y="207" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-25" target="matDi5zSS8P4dyu_T_uE-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-25" value="创建" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="367" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-26" target="matDi5zSS8P4dyu_T_uE-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-26" value="暂定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="373" y="298" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-27" target="matDi5zSS8P4dyu_T_uE-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-27" value="详情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="373" y="395" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-28" target="matDi5zSS8P4dyu_T_uE-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-28" value="列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="373" y="487" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-29" target="matDi5zSS8P4dyu_T_uE-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-29" value="tv参数&lt;div&gt;token 令牌&lt;/div&gt;&lt;div&gt;信号Id&lt;/div&gt;&lt;div&gt;下单常用参数&lt;/div&gt;&lt;div&gt;webhook地址&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="568" y="102.75" width="175" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-31" value="tv配置&lt;div&gt;策略和提醒两种方式&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850.5" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-21" target="matDi5zSS8P4dyu_T_uE-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-38" value="操作状态" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="567" y="207" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-40" value="操作状态" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-42" value="信号详情&lt;div&gt;及查询信号下单的委托订单等&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-44" value="展示" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="487" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

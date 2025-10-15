@@ -4,56 +4,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="matDi5zSS8P4dyu_T_uE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-1" target="matDi5zSS8P4dyu_T_uE-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="matDi5zSS8P4dyu_T_uE-21" value="webhook信号管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="298" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-1" value="用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="144" y="126" width="120" height="60" as="geometry" />
+        <mxCell id="matDi5zSS8P4dyu_T_uE-24" value="运行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="207" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-2" target="matDi5zSS8P4dyu_T_uE-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="matDi5zSS8P4dyu_T_uE-25" value="创建" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="113" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-2" value="创建一个webhook信号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="344" y="126" width="144" height="60" as="geometry" />
+        <mxCell id="matDi5zSS8P4dyu_T_uE-26" value="暂定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="298" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-4" target="matDi5zSS8P4dyu_T_uE-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="matDi5zSS8P4dyu_T_uE-27" value="详情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="395" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-4" target="matDi5zSS8P4dyu_T_uE-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-4" value="生成url 参数等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="126" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-6" value="用户id加密，token作为参数一部分" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="266" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-11" target="matDi5zSS8P4dyu_T_uE-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-11" value="参数根据策略 或提醒 有所不同" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="126" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-13" target="matDi5zSS8P4dyu_T_uE-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-13" value="用户配置tv webhook" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="266" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-15" target="matDi5zSS8P4dyu_T_uE-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-15" value="触发webhook" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="406" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-17" target="matDi5zSS8P4dyu_T_uE-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-17" value="服务处理webhook" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="406" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-19" value="调用交易系统" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="406" width="120" height="60" as="geometry" />
+        <mxCell id="matDi5zSS8P4dyu_T_uE-28" value="列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="487" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

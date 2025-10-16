@@ -148,7 +148,7 @@
         <mxCell id="matDi5zSS8P4dyu_T_uE-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-76" target="matDi5zSS8P4dyu_T_uE-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-76" value="下单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="matDi5zSS8P4dyu_T_uE-76" value="下单&lt;div&gt;重写&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="332" y="2004" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-78" value="trade-center" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -156,6 +156,12 @@
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-80" value="open-center" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="132" y="2004" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-82" value="转发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="462" y="2013" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-83" value="转发" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="2004" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

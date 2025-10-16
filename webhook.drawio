@@ -77,40 +77,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-47" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="655" width="120" height="60" as="geometry" />
+          <mxGeometry x="369" y="973" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-48" target="matDi5zSS8P4dyu_T_uE-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-48" value="tv触发webhook" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="795" width="120" height="60" as="geometry" />
+          <mxGeometry x="369" y="1113" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-50" target="matDi5zSS8P4dyu_T_uE-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-50" value="处理webhook请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="935" width="120" height="60" as="geometry" />
+          <mxGeometry x="369" y="1253" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-52" target="matDi5zSS8P4dyu_T_uE-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-52" value="参数校验" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="1075" width="120" height="60" as="geometry" />
+          <mxGeometry x="369" y="1393" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-54" target="matDi5zSS8P4dyu_T_uE-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-54" value="幂等性处理&lt;div&gt;tv timestamp毫秒&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="1215" width="120" height="60" as="geometry" />
+          <mxGeometry x="369" y="1533" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-56" target="matDi5zSS8P4dyu_T_uE-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-56" value="webhook信号校验" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="1355" width="120" height="60" as="geometry" />
+          <mxGeometry x="369" y="1673" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-58" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="392" y="1495" width="120" height="60" as="geometry" />
+          <mxGeometry x="369" y="1813" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-61" target="matDi5zSS8P4dyu_T_uE-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-61" value="web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="663" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-62" target="matDi5zSS8P4dyu_T_uE-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-62" value="futures-gateway-user" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="663" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-64" target="matDi5zSS8P4dyu_T_uE-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-64" value="futures-webhook-user" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="663" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="matDi5zSS8P4dyu_T_uE-66" value="管理webhook信号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="682" y="663" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

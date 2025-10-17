@@ -166,7 +166,7 @@
         <mxCell id="matDi5zSS8P4dyu_T_uE-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="matDi5zSS8P4dyu_T_uE-96" target="matDi5zSS8P4dyu_T_uE-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="matDi5zSS8P4dyu_T_uE-96" value="user-gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="matDi5zSS8P4dyu_T_uE-96" value="user-gateway&lt;div&gt;要调整下鉴权&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="651" y="2237" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="matDi5zSS8P4dyu_T_uE-98" value="http" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">

@@ -182,6 +182,45 @@
         <mxCell id="GS08xvVQq63nZ99cKhNL-83" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="332" y="2542" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-85" target="GS08xvVQq63nZ99cKhNL-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-85" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="1988" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-86" target="GS08xvVQq63nZ99cKhNL-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-86" value="调用核心接口或是拉取最新资金消息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-90" target="GS08xvVQq63nZ99cKhNL-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-90" target="GS08xvVQq63nZ99cKhNL-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-90" value="是否能替换对象" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="725" y="2258" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-92" value="new.updateTime &amp;gt;= old.updateTime" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="775" y="2217" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-93" target="GS08xvVQq63nZ99cKhNL-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-93" value="替换" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-95" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="2268" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-97" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="796" y="2270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-98" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2531" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

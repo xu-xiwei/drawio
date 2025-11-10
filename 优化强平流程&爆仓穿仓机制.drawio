@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="wCe8SBTJU4jyiuq0QMrU">
-    <mxGraphModel dx="9946" dy="603" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
+    <mxGraphModel dx="9901" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,6 +235,108 @@
             <mxPoint x="432" y="2391" as="sourcePoint" />
             <mxPoint x="456" y="2439" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-109" target="GS08xvVQq63nZ99cKhNL-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-109" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="2723" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-110" target="GS08xvVQq63nZ99cKhNL-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-110" value="websocket推送" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="2863" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-114" target="GS08xvVQq63nZ99cKhNL-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-114" target="GS08xvVQq63nZ99cKhNL-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-114" value="持仓0 或是 删除" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="2993" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-116" target="GS08xvVQq63nZ99cKhNL-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-116" value="获取内存对象" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="3003" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-118" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="288" y="3005" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-119" target="GS08xvVQq63nZ99cKhNL-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-119" value="获取对象" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="3163" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-121" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="361" y="3090" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-122" target="GS08xvVQq63nZ99cKhNL-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-122" value="是否替换" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="3133" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-124" value="默认true" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="49" y="3159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-125" target="GS08xvVQq63nZ99cKhNL-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-125" value="内存删除仓位" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="3303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-127" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="3231" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-128" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="3443" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-130" target="GS08xvVQq63nZ99cKhNL-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-130" value="直接替换" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="3303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-132" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="3443" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-134" target="GS08xvVQq63nZ99cKhNL-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-134" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="2723" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-135" target="GS08xvVQq63nZ99cKhNL-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-135" value="调用核心接口仓位有变化，或是拉取接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="2863" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-137" target="GS08xvVQq63nZ99cKhNL-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-137" value="获取核心当前内存中最新的内存" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="3003" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-139" value="只会较少，不能新增" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="763" y="2993" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-140" value="按理说禁止交易权限不会新增仓位，做告警" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="765" y="2953" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-141" target="GS08xvVQq63nZ99cKhNL-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-141" value="把平仓的仓位数量变成0，时间更新&lt;br&gt;部分平仓的数量更新，更新时间" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="3143" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-143" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="3283" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

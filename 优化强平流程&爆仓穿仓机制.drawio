@@ -159,7 +159,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GS08xvVQq63nZ99cKhNL-73" value="是否能代替旧对象" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="2232" width="116" height="80" as="geometry" />
+          <mxGeometry x="334" y="2232" width="115" height="79" as="geometry" />
         </mxCell>
         <mxCell id="GS08xvVQq63nZ99cKhNL-75" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="543" y="2242" width="120" height="60" as="geometry" />
@@ -176,7 +176,7 @@
         <mxCell id="GS08xvVQq63nZ99cKhNL-80" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="373" y="2337" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GS08xvVQq63nZ99cKhNL-81" value="&lt;div&gt;sourceLevel &amp;gt;= old.sourceLevel&amp;nbsp;&lt;/div&gt;&lt;div&gt;|| System.currentTimeMillis() - old.getUpdateTime() &amp;gt;= 30分钟&lt;/div&gt;&lt;div&gt;目前sourceLevel没返回默认0，都返回false&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GS08xvVQq63nZ99cKhNL-81" value="&lt;div&gt;sourceLevel &amp;gt;= old.sourceLevel&amp;nbsp;&lt;/div&gt;&lt;div&gt;|| System.currentTimeMillis() - old.getUpdateTime() &amp;gt;= 30分钟&lt;/div&gt;&lt;div&gt;目前sourceLevel没返回默认0，都返回true&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-28" y="2238" width="326" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GS08xvVQq63nZ99cKhNL-83" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -220,6 +220,21 @@
         </mxCell>
         <mxCell id="GS08xvVQq63nZ99cKhNL-98" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="705" y="2531" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-103" value="是否能替换对象" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="477" y="2316" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-104" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="432" y="2391" as="sourcePoint" />
+            <mxPoint x="482" y="2341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="432" y="2391" as="sourcePoint" />
+            <mxPoint x="456" y="2439" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

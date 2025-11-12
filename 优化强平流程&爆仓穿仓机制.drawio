@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="wCe8SBTJU4jyiuq0QMrU">
-    <mxGraphModel dx="10261" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
+    <mxGraphModel dx="9901" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9000" pageHeight="9020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -337,6 +337,181 @@
         </mxCell>
         <mxCell id="GS08xvVQq63nZ99cKhNL-143" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="624" y="3283" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-145" target="GS08xvVQq63nZ99cKhNL-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-145" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="3645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-146" target="GS08xvVQq63nZ99cKhNL-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-146" value="循环用户&lt;div&gt;计算用户风险率&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="3785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-148" target="GS08xvVQq63nZ99cKhNL-146">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="483" y="3955" />
+              <mxPoint x="483" y="3815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="4085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-148" value="用户是否有逐仓or全仓强平" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="3915" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-153" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="428" y="3927" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-156" target="GS08xvVQq63nZ99cKhNL-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-156" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="4091" width="564" height="767" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-157" value="处理风险率高的用户" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="174" y="4061" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-158" value="异步执行" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="534" y="4061" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-159" target="GS08xvVQq63nZ99cKhNL-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-159" value="所有高风险用户处理完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="4913" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-161" target="GS08xvVQq63nZ99cKhNL-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-161" value="更新风险率信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="5053" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-163" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="5193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-165" target="GS08xvVQq63nZ99cKhNL-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-165" value="禁止用户交易权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="4110" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-166" value="恢复用户交易权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="4118" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-167" target="GS08xvVQq63nZ99cKhNL-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-167" value="处理逐仓撤单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="4183" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-169" target="GS08xvVQq63nZ99cKhNL-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-169" value="计算风险率" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="4252" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-171" target="GS08xvVQq63nZ99cKhNL-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-171" value="风险率高" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="4326" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-173" target="GS08xvVQq63nZ99cKhNL-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-173" value="计算破产价、强平数量" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="4446" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-185" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-175" target="GS08xvVQq63nZ99cKhNL-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-175" value="强平触发" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="4519" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-183" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-175" target="GS08xvVQq63nZ99cKhNL-167">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="4526" as="sourcePoint" />
+            <mxPoint x="423" y="4476" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="383" y="4536" />
+              <mxPoint x="385" y="4201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-184" target="GS08xvVQq63nZ99cKhNL-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-184" value="是否有全仓" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="4610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-186" target="GS08xvVQq63nZ99cKhNL-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-186" value="全仓撤单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="4724" width="120" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-188" target="GS08xvVQq63nZ99cKhNL-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-188" value="计算风险率" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="386" y="4726" width="93" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-190" target="GS08xvVQq63nZ99cKhNL-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-190" value="风险率高" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="529.5" y="4705" width="76.5" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-192" target="GS08xvVQq63nZ99cKhNL-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-192" value="计算对锁仓位" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="507.75" y="4633" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-194" value="是否有对锁" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="527.75" y="4505" width="80" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-196" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="4678" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-197" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="254" y="4690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-198" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="4406" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-202" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="301" y="4336" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-203" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-202">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="4471" as="sourcePoint" />
+            <mxPoint x="337" y="4200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="353" y="4366" />
+              <mxPoint x="355" y="4200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-204" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GS08xvVQq63nZ99cKhNL-184" target="GS08xvVQq63nZ99cKhNL-166">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="4461" as="sourcePoint" />
+            <mxPoint x="479" y="4414" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="427" y="4648" />
+              <mxPoint x="423" y="4136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GS08xvVQq63nZ99cKhNL-205" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="313" y="4617" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

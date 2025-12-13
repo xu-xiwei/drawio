@@ -46,6 +46,12 @@
         <mxCell id="MRhX2tfIIHwmN39JShAu-15" value="rest" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="209" y="44" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-16" value="Twalk配置" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142" y="379" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-23" value="&lt;div&gt;相关表 放到 meegle&lt;/div&gt;合约交易对&lt;div&gt;合约交易对分组&lt;/div&gt;&lt;div&gt;用户白名单&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="357" width="204" height="97" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

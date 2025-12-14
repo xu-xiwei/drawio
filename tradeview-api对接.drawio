@@ -219,6 +219,15 @@
         <mxCell id="MRhX2tfIIHwmN39JShAu-87" value="显示通知" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="212" y="1652" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-88" value="&lt;h4&gt;K线&lt;/h4&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1836" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-89" value="实时k线&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;已实现&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188" y="1911" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-90" value="历史k线&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;已实现&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="1911" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

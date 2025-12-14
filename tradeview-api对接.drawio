@@ -89,16 +89,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-36" value="tv服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="899" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MRhX2tfIIHwmN39JShAu-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MRhX2tfIIHwmN39JShAu-37" target="MRhX2tfIIHwmN39JShAu-39">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="112" y="897" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-37" value="数据集成:/groups" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1039" width="120" height="60" as="geometry" />
+          <mxGeometry x="112" y="1037" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MRhX2tfIIHwmN39JShAu-39" value="获取所有分组定义" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1179" width="120" height="60" as="geometry" />
+        <mxCell id="MRhX2tfIIHwmN39JShAu-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MRhX2tfIIHwmN39JShAu-41" target="MRhX2tfIIHwmN39JShAu-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-41" value="用户登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="338" y="893" width="120" height="60" as="geometry" />
@@ -107,13 +104,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-42" value="twalk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="599" y="885" width="120" height="60" as="geometry" />
+          <mxGeometry x="784" y="888" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MRhX2tfIIHwmN39JShAu-43" target="MRhX2tfIIHwmN39JShAu-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-43" value="用户访问图表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="338" y="1045" width="120" height="60" as="geometry" />
+          <mxGeometry x="561" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-44" value="配置分组、白名单等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="599" y="1025" width="120" height="60" as="geometry" />
+          <mxGeometry x="784" y="1035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-48" value="交易集成：/premissions" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="1033" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-52" value="数据集成：/symbol_info?group=xxx" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="561" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

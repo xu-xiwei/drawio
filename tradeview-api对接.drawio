@@ -327,6 +327,18 @@
         <mxCell id="MRhX2tfIIHwmN39JShAu-123" value="依赖/config，/accounts&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;全量更新，所有字段&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="487" y="675" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-125" value="&lt;h4&gt;历史委托&lt;/h4&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="71" y="3582" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MRhX2tfIIHwmN39JShAu-126" target="MRhX2tfIIHwmN39JShAu-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-126" value="历史委托&lt;div&gt;/accounts/{accountId}/ordersHistory&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="228" y="3643" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRhX2tfIIHwmN39JShAu-127" value="查询主网历史订单&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;需要产品增加查询时间范围和排序等&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="283.5" y="3783" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

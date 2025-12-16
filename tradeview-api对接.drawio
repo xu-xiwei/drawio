@@ -456,8 +456,8 @@
         <mxCell id="MRhX2tfIIHwmN39JShAu-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MRhX2tfIIHwmN39JShAu-174" target="MRhX2tfIIHwmN39JShAu-176">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MRhX2tfIIHwmN39JShAu-174" value="下市价单&lt;div&gt;方向相反&lt;br&gt;数量*2&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="675" y="5363" width="120" height="60" as="geometry" />
+        <mxCell id="MRhX2tfIIHwmN39JShAu-174" value="修改仓位 PUT&lt;br&gt;accounts/{accountId}/positions/{positionId}&lt;div&gt;根据side判断&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="607" y="5363" width="256" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-176" value="交易系统内部处理反手" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="5503" width="120" height="60" as="geometry" />

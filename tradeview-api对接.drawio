@@ -462,8 +462,8 @@
         <mxCell id="MRhX2tfIIHwmN39JShAu-176" value="交易系统内部处理反手" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="5503" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MRhX2tfIIHwmN39JShAu-178" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;仓位主键：positionId唯一标识问题，主网可能要几个字段组合&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="4923" width="140" height="160" as="geometry" />
+        <mxCell id="MRhX2tfIIHwmN39JShAu-178" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;仓位主键：positionId唯一标识问题，主网可能要几个字段组合&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;`MemberID`,`TradeUnitID`,`ExchangeID`,`InstrumentID`,`PosiDirection`&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="4923" width="410" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

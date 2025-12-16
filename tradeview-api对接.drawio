@@ -199,8 +199,8 @@
             <mxPoint x="386" y="2082" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MRhX2tfIIHwmN39JShAu-80" value="监听websocket" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="546" y="2052" width="110" height="30" as="geometry" />
+        <mxCell id="MRhX2tfIIHwmN39JShAu-80" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;监听websocket放大器&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="546" y="2052" width="146" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-84" value="推送通知" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="382" y="2064" width="60" height="30" as="geometry" />

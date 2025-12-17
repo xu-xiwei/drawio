@@ -50,7 +50,7 @@
           <mxGeometry x="142" y="379" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-23" value="&lt;div&gt;相关表 放到 meegle&lt;/div&gt;合约交易对&lt;div&gt;合约交易对分组&lt;/div&gt;&lt;div&gt;用户白名单&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="216" y="357" width="204" height="97" as="geometry" />
+          <mxGeometry x="241.5" y="355" width="204" height="97" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MRhX2tfIIHwmN39JShAu-24" target="MRhX2tfIIHwmN39JShAu-26">
           <mxGeometry relative="1" as="geometry" />
@@ -313,7 +313,7 @@
         <mxCell id="MRhX2tfIIHwmN39JShAu-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MRhX2tfIIHwmN39JShAu-122" target="MRhX2tfIIHwmN39JShAu-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MRhX2tfIIHwmN39JShAu-122" value="账户摘要Tab&lt;div&gt;accounts/{accountId}/stream/state&lt;/div&gt;&lt;div&gt;快照+增量（事件 or binlog）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MRhX2tfIIHwmN39JShAu-122" value="账户摘要Tab&lt;div&gt;accounts/{accountId}/stream/state&lt;/div&gt;&lt;div&gt;快照+增量（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;websocket放大器&lt;/font&gt;）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="439" y="535" width="216" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MRhX2tfIIHwmN39JShAu-123" value="依赖/config，/accounts&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;全量更新，所有字段&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">

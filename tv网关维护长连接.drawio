@@ -173,7 +173,7 @@
             <mxPoint x="485" y="1425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="5AjXsPPhU2dnDWscLW7e-48" value="return nodeip">
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="5AjXsPPhU2dnDWscLW7e-48" value="return nodeip（存在多个ip）">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="747" y="1465" as="sourcePoint" />
             <mxPoint x="667" y="1465" as="targetPoint" />
@@ -190,9 +190,6 @@
             <mxPoint x="404" y="1636" as="sourcePoint" />
             <mxPoint x="324" y="1636" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="如何把用户长链接在一个节点上" vertex="1">
-          <mxGeometry height="30" width="227" x="51" y="1792" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

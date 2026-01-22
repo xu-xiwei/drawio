@@ -148,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="dubbo 定向寻址" vertex="1">
-          <mxGeometry height="30" width="110" x="158" y="1272" as="geometry" />
+          <mxGeometry height="30" width="110" x="82" y="1271" as="geometry" />
         </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-48" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="business" vertex="1">
           <mxGeometry height="422" width="100" x="356" y="1336" as="geometry" />
@@ -189,6 +189,39 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="404" y="1636" as="sourcePoint" />
             <mxPoint x="324" y="1636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="管理路由" vertex="1">
+          <mxGeometry height="30" width="60" x="77" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-59" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="connection" vertex="1">
+          <mxGeometry height="300" width="100" x="310" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-60" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="redis" vertex="1">
+          <mxGeometry height="300" width="100" x="571" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-61" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-59" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="5AjXsPPhU2dnDWscLW7e-60" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="487" y="1973" />
+            </Array>
+            <mxPoint x="493" y="1972" as="sourcePoint" />
+            <mxPoint x="573" y="1972" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.连接注册" vertex="1">
+          <mxGeometry height="30" width="98" x="422" y="1946" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-63" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="5AjXsPPhU2dnDWscLW7e-60" value="2.心跳续期，发送心跳同时异步续期">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="360" y="2057" as="sourcePoint" />
+            <mxPoint x="440" y="2057" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-64" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="5AjXsPPhU2dnDWscLW7e-60" value="3.正常断开清理">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="361" y="2136" as="sourcePoint" />
+            <mxPoint x="441" y="2136" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

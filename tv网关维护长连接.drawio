@@ -233,6 +233,18 @@
         <mxCell id="5AjXsPPhU2dnDWscLW7e-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="userId-&amp;gt;type-&amp;gt;Many" vertex="1">
           <mxGeometry height="60" width="418" x="98" y="2397" as="geometry" />
         </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="push 重试？" vertex="1">
+          <mxGeometry height="30" width="91" x="918" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="grpc 比较dubbo?" vertex="1">
+          <mxGeometry height="30" width="124" x="889" y="1317" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="协议层 支持地址配置？" vertex="1">
+          <mxGeometry height="30" width="97" x="995" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="业务层批量发送，节点消息聚合" vertex="1">
+          <mxGeometry height="30" width="170" x="826" y="1961" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

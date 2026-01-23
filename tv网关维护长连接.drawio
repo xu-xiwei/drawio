@@ -233,9 +233,6 @@
         <mxCell id="5AjXsPPhU2dnDWscLW7e-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="userId-&amp;gt;type-&amp;gt;Many" vertex="1">
           <mxGeometry height="60" width="418" x="98" y="2397" as="geometry" />
         </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="业务层批量发送，节点消息聚合" vertex="1">
-          <mxGeometry height="30" width="170" x="826" y="1961" as="geometry" />
-        </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="动态路由" vertex="1">
           <mxGeometry height="30" width="200" x="84" y="2622" as="geometry" />
         </mxCell>
@@ -341,6 +338,9 @@
         </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-110" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;事件类&lt;/div&gt;有限次数重试" vertex="1">
           <mxGeometry height="60" width="120" x="377" y="3729" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-112" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="业务层批量发送，节点消息聚合" vertex="1">
+          <mxGeometry height="30" width="215" x="72" y="3915" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

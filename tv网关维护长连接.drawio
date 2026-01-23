@@ -315,6 +315,33 @@
         <mxCell id="5AjXsPPhU2dnDWscLW7e-102" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="推送数据重试" vertex="1">
           <mxGeometry height="30" width="147" x="61" y="3372" as="geometry" />
         </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-105" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="k线、行情、深度" vertex="1">
+          <mxGeometry height="60" width="120" x="181" y="3439" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-104" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="时效性&lt;br&gt;不能重试" vertex="1">
+          <mxGeometry height="60" width="120" x="381" y="3439" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-108" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-107" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="仓位、资金" vertex="1">
+          <mxGeometry height="60" width="120" x="177" y="3584" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-107" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="状态快照，新覆盖旧&lt;div&gt;不要重试&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="377" y="3584" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-111" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-110" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通知，订单" vertex="1">
+          <mxGeometry height="60" width="120" x="177" y="3729" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-110" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;事件类&lt;/div&gt;有限次数重试" vertex="1">
+          <mxGeometry height="60" width="120" x="377" y="3729" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

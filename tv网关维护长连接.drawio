@@ -233,14 +233,11 @@
         <mxCell id="5AjXsPPhU2dnDWscLW7e-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="userId-&amp;gt;type-&amp;gt;Many" vertex="1">
           <mxGeometry height="60" width="418" x="98" y="2397" as="geometry" />
         </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="push 重试？" vertex="1">
-          <mxGeometry height="30" width="91" x="918" y="1160" as="geometry" />
-        </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="业务层批量发送，节点消息聚合" vertex="1">
           <mxGeometry height="30" width="170" x="826" y="1961" as="geometry" />
         </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="链接层支持协议配置" vertex="1">
-          <mxGeometry height="30" width="200" x="64" y="2530" as="geometry" />
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="动态路由" vertex="1">
+          <mxGeometry height="30" width="200" x="84" y="2622" as="geometry" />
         </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-80" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-79" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -314,6 +311,9 @@
         </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-100" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="重新注册路由" vertex="1">
           <mxGeometry height="60" width="120" x="549" y="3251" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-102" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="推送数据重试" vertex="1">
+          <mxGeometry height="30" width="147" x="61" y="3372" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -236,14 +236,84 @@
         <mxCell id="5AjXsPPhU2dnDWscLW7e-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="push 重试？" vertex="1">
           <mxGeometry height="30" width="91" x="918" y="1160" as="geometry" />
         </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="grpc 比较dubbo?" vertex="1">
-          <mxGeometry height="30" width="124" x="889" y="1317" as="geometry" />
-        </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="协议层 支持地址配置？" vertex="1">
-          <mxGeometry height="30" width="97" x="995" y="614" as="geometry" />
-        </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="业务层批量发送，节点消息聚合" vertex="1">
           <mxGeometry height="30" width="170" x="826" y="1961" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="链接层支持协议配置" vertex="1">
+          <mxGeometry height="30" width="200" x="64" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-80" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-79" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="cleint" vertex="1">
+          <mxGeometry height="60" width="120" x="153" y="2694" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-83" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-82" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-79" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="链接层&lt;br&gt;通用处理器" vertex="1">
+          <mxGeometry height="60" width="120" x="353" y="2694" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-85" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-84" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-82" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="路由表查询url和模式" vertex="1">
+          <mxGeometry height="60" width="120" x="353" y="2834" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-87" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-86" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-84" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="订阅sink" vertex="1">
+          <mxGeometry height="60" width="120" x="353" y="2974" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-89" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-88" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-86" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="拉取快照" vertex="1">
+          <mxGeometry height="60" width="120" x="353" y="3114" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-88" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="注册redis" vertex="1">
+          <mxGeometry height="60" width="120" x="353" y="3254" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-92" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-94" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="动态路由" vertex="1">
+          <mxGeometry height="60" width="120" x="553" y="2694" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="nacos路由配置" vertex="1">
+          <mxGeometry height="60" width="120" x="793" y="2694" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-93" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="绑定url和处理器" vertex="1">
+          <mxGeometry height="60" width="120" x="553" y="2834" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-99" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-98" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="动态刷新路由" vertex="1">
+          <mxGeometry height="60" width="120" x="549" y="2971" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-96" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="5AjXsPPhU2dnDWscLW7e-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="842" y="3010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="变动" vertex="1">
+          <mxGeometry height="30" width="60" x="828" y="2901" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-101" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-98" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="注销旧的路由" vertex="1">
+          <mxGeometry height="60" width="120" x="549" y="3111" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-100" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="重新注册路由" vertex="1">
+          <mxGeometry height="60" width="120" x="549" y="3251" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

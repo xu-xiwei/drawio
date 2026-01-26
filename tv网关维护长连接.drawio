@@ -68,7 +68,7 @@
           <mxGeometry height="30" width="133" x="123" y="483" as="geometry" />
         </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="client" vertex="1">
-          <mxGeometry height="662" width="100" x="153" y="564" as="geometry" />
+          <mxGeometry height="662" width="100" x="151" y="559" as="geometry" />
         </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="connection" vertex="1">
           <mxGeometry height="677" width="100" x="390" y="562" as="geometry" />
@@ -342,10 +342,7 @@
         <mxCell id="5AjXsPPhU2dnDWscLW7e-112" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="业务层批量发送，节点消息聚合" vertex="1">
           <mxGeometry height="30" width="215" x="72" y="3915" as="geometry" />
         </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-117" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-116" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="聚合缓冲区&lt;div&gt;Disruptor&lt;/div&gt;" vertex="1">
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="聚合缓冲区" vertex="1">
           <mxGeometry height="60" width="120" x="406" y="4022" as="geometry" />
         </mxCell>
         <mxCell id="5AjXsPPhU2dnDWscLW7e-115" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5AjXsPPhU2dnDWscLW7e-113">
@@ -357,8 +354,14 @@
         <mxCell id="5AjXsPPhU2dnDWscLW7e-116" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="批量推送" vertex="1">
           <mxGeometry height="60" width="120" x="660" y="4022" as="geometry" />
         </mxCell>
-        <mxCell id="5AjXsPPhU2dnDWscLW7e-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="时间阈值 数量阈值" vertex="1">
-          <mxGeometry height="30" width="105" x="535" y="4021" as="geometry" />
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-120" edge="1" parent="1" source="5AjXsPPhU2dnDWscLW7e-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5AjXsPPhU2dnDWscLW7e-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="异步定时任务" vertex="1">
+          <mxGeometry height="60" width="120" x="404" y="4143" as="geometry" />
+        </mxCell>
+        <mxCell id="5AjXsPPhU2dnDWscLW7e-122" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="时间阈值 数量阈值" vertex="1">
+          <mxGeometry height="30" width="143" x="562" y="4149" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

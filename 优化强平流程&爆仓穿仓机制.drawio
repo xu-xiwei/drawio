@@ -672,6 +672,24 @@
         <mxCell id="WxrP2NkHNRaMcs64jZjk-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="根据用户hash" vertex="1">
           <mxGeometry height="30" width="114" x="651" y="6541" as="geometry" />
         </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="指标监控" vertex="1">
+          <mxGeometry height="60" width="120" x="214" y="6987" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="新blot 计算时间p99 p95" vertex="1">
+          <mxGeometry height="60" width="198" x="200" y="7104" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-65" edge="1" parent="1" source="WxrP2NkHNRaMcs64jZjk-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WxrP2NkHNRaMcs64jZjk-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="禁用用户权限&lt;br&gt;恢复用户权限&lt;br&gt;撤单&lt;br&gt;自成交" vertex="1">
+          <mxGeometry height="78" width="205" x="197" y="7201" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-64" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="http接口根据服务&lt;br&gt;p99,p95, httpclient链接池状态" vertex="1">
+          <mxGeometry height="60" width="201.5" x="524.5" y="7210" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="wesocket&amp;nbsp;&lt;br&gt;查询资金 仓位&amp;nbsp; 自成交&lt;div&gt;p99 p95&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="199" x="528" y="7303" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -687,7 +687,7 @@
         <mxCell id="WxrP2NkHNRaMcs64jZjk-64" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="http接口根据服务&lt;br&gt;p99,p95, httpclient链接池状态" vertex="1">
           <mxGeometry height="60" width="201.5" x="524.5" y="7210" as="geometry" />
         </mxCell>
-        <mxCell id="WxrP2NkHNRaMcs64jZjk-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="wesocket&amp;nbsp;&lt;br&gt;查询资金 仓位&amp;nbsp; 自成交&lt;div&gt;p99 p95&lt;/div&gt;" vertex="1">
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="wesocket&amp;nbsp;&lt;br&gt;查询行情、资金 仓位&amp;nbsp; 自成交&lt;div&gt;p99 p95&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="199" x="528" y="7303" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-69" edge="1" parent="1" source="WxrP2NkHNRaMcs64jZjk-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WxrP2NkHNRaMcs64jZjk-68" value="">
@@ -841,6 +841,12 @@
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-111" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
           <mxGeometry height="30" width="60" x="778.97" y="8396" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-113" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="32" vertex="1">
+          <mxGeometry height="30" width="60" x="589" y="5416" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-114" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8" vertex="1">
+          <mxGeometry height="30" width="60" x="918" y="5572" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

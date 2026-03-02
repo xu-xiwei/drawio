@@ -632,7 +632,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-45" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" value="是否走新强平" vertex="1">
-          <mxGeometry height="80" width="112" x="606" y="6656" as="geometry" />
+          <mxGeometry height="80" width="112" x="606" y="6653" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-53" edge="1" parent="1" source="WxrP2NkHNRaMcs64jZjk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WxrP2NkHNRaMcs64jZjk-52" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -644,13 +644,13 @@
           <mxGeometry height="30" width="60" x="658" y="6360" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-50" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="旧逻辑保持不变" vertex="1">
-          <mxGeometry height="60" width="120" x="850" y="6666" as="geometry" />
+          <mxGeometry height="60" width="120" x="843" y="6663" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-52" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="强平blot" vertex="1">
           <mxGeometry height="60" width="120" x="602" y="6235" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
-          <mxGeometry height="30" width="60" x="645" y="6573" as="geometry" />
+          <mxGeometry height="30" width="60" x="645" y="6623" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-57" edge="1" parent="1" source="WxrP2NkHNRaMcs64jZjk-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WxrP2NkHNRaMcs64jZjk-37">
           <mxGeometry relative="1" as="geometry">
@@ -665,6 +665,12 @@
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-55" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" value="是否走新强平且在强平中" vertex="1">
           <mxGeometry height="80" width="80" x="373" y="6496" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="还是沿用之前设计" vertex="1">
+          <mxGeometry height="30" width="122" x="736" y="6459" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="根据用户hash" vertex="1">
+          <mxGeometry height="30" width="114" x="651" y="6541" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

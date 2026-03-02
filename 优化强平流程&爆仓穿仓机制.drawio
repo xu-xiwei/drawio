@@ -641,13 +641,16 @@
           <mxGeometry height="60" width="120" x="529" y="6346" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
-          <mxGeometry height="30" width="60" x="583" y="6446" as="geometry" />
+          <mxGeometry height="30" width="60" x="573" y="6446" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-50" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="旧逻辑保持不变" vertex="1">
           <mxGeometry height="60" width="120" x="721" y="6506" as="geometry" />
         </mxCell>
         <mxCell id="WxrP2NkHNRaMcs64jZjk-52" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="强平blot" vertex="1">
           <mxGeometry height="60" width="120" x="529" y="6206" as="geometry" />
+        </mxCell>
+        <mxCell id="WxrP2NkHNRaMcs64jZjk-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="638" y="6532" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
